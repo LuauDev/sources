@@ -114,12 +114,15 @@
             border-radius: 20px;
             height: fit-content;
             border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+            cursor: pointer;
         }
 
         .exploit-item:hover {
             background: rgba(255, 255, 255, 0.05);
             transform: translateY(-2px);
             border-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
         }
 
         .exploit-item h3 {
@@ -140,6 +143,7 @@
             margin-top: 1.2rem;
             padding-top: 1.2rem;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
+            transition: opacity 0.2s ease;
         }
 
         .details-section h4 {
@@ -162,6 +166,12 @@
             margin: 0.3rem 0;
             padding-left: 1.2rem;
             position: relative;
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+
+        .details-list li:hover {
+            transform: translateX(5px);
+            color: rgba(255, 255, 255, 0.8);
         }
 
         .details-list li::before {
@@ -174,6 +184,26 @@
         .pros li::before { color: #4CAF50; }
         .cons li::before { color: #FFC107; }
         .negatives li::before { color: #F44336; }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 1.2rem;
+            padding: 0.8rem 1.6rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
@@ -227,6 +257,8 @@
                             <ul class="details-list negatives">
                                 ${executor.negatives.map(neg => `<li>${neg}</li>`).join('')}
                             </ul>
+
+                            <a href="${executor.downloadUrl}" class="download-btn" target="_blank">Download Source</a>
                         </div>
                     `;
                     container.appendChild(executorElement);

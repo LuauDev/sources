@@ -3,6 +3,7 @@
         {
             "name": "Xeno Source",
             "description": "Latest source code and documentation",
+            "downloadUrl": "https://github.com/LuauDev/LuauAPI",
             "pros": [
                 "Fast execution speed",
                 "Modern UI framework",
@@ -20,6 +21,7 @@
         {
             "name": "Solara Source",
             "description": "Complete source files and build instructions",
+            "downloadUrl": "https://github.com/LuauDev/sources/Solara",
             "pros": [
                 "Easy to customize",
                 "Lightweight",
@@ -37,6 +39,7 @@
         {
             "name": "KRNL Source",
             "description": "Original source code and dependencies",
+            "downloadUrl": "https://github.com/LuauDev/sources/KRNL",
             "pros": [
                 "Stable codebase",
                 "Large community",
@@ -54,6 +57,7 @@
         {
             "name": "Lunara Source",
             "description": "Next-generation executor framework",
+            "downloadUrl": "https://discord.gg/eknR2BNPdT",
             "pros": [
                 "Advanced script engine",
                 "Clean modern interface",

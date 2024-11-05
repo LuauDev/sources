@@ -1,0 +1,72 @@
+{
+    "executors": [
+        {
+            "name": "Xeno Source",
+            "description": "Latest source code and documentation",
+            "pros": [
+                "Fast execution speed",
+                "Modern UI framework",
+                "Regular updates"
+            ],
+            "cons": [
+                "Complex setup process",
+                "Heavy resource usage"
+            ],
+            "negatives": [
+                "May trigger some anti-virus software",
+                "Requires specific dependencies"
+            ]
+        },
+        {
+            "name": "Solara Source",
+            "description": "Complete source files and build instructions",
+            "pros": [
+                "Easy to customize",
+                "Lightweight",
+                "Good documentation"
+            ],
+            "cons": [
+                "Limited feature set",
+                "Slower execution"
+            ],
+            "negatives": [
+                "No official support",
+                "Some features are deprecated"
+            ]
+        },
+        {
+            "name": "KRNL Source",
+            "description": "Original source code and dependencies",
+            "pros": [
+                "Stable codebase",
+                "Large community",
+                "Extensive API"
+            ],
+            "cons": [
+                "Outdated UI",
+                "Complex API"
+            ],
+            "negatives": [
+                "Limited compatibility",
+                "Security concerns"
+            ]
+        },
+        {
+            "name": "Lunara Source",
+            "description": "Next-generation executor framework",
+            "pros": [
+                "Advanced script engine",
+                "Clean modern interface",
+                "Built-in script library"
+            ],
+            "cons": [
+                "Beta stage development",
+                "Resource intensive"
+            ],
+            "negatives": [
+                "Limited platform support",
+                "Frequent breaking changes"
+            ]
+        }
+    ]
+}
